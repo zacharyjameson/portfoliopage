@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+/*imported text from local library*/
+@font-face {
+    font-family: fairlyodd;
+    src: url(BandeinsStrangeVariable.ttf);
+    text-shadow: 5px, 5px, #000000;
+  }
+
+body{
+  background-color: #000000;
+}
+
+.intro-about, .contactme{
+  margin-right: auto;
+  margin-left: auto;
+  width: 750px;
+}
+
+.headerStyle{
+  background-color: #0E484E;
+  height: 150px;
+  text-align: center;
+}
+
+.intro{
+  font-family: fairlyodd;
+  color: white;
+  margin: auto;
+  padding: auto;
+}
+
+#introName{
+  margin: auto;
+  padding-top: 25px;
+}
+
+#subhead {
+  margin: auto;
+  padding: 0px;
+  font-style: italic;
+}
+
+/*section breaks*/
+hr{
+  color: #417C81;
+  height: 10px;
+  background-color: #417C81;
+  border-radius: 10px;
+}
+
+/*styled links*/
+a:link{color: #b19cd9;}
+a:hover{color: grey;}
+a:visited{color: lightcyan;}
+a:active{font-size: 15px;}
+
+footer{
+  background-color: #0E484E;
+  height: 85px;
+}
+
+#footerNav{
+  padding: 15px;
+  text-align: center;
+}
+
+#podcastContent{
+  text-align: center;
+}
+
+section{
+ padding: 10px;
+}
