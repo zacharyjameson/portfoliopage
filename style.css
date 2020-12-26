@@ -31,7 +31,7 @@ body{
   padding: auto;
 }
 
-#introName{
+h1#introName{
   margin: auto;
   padding-top: 25px;
   text-shadow: 2px 2px 2px #000000;
