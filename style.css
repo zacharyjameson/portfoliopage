@@ -6,11 +6,10 @@
 @font-face {
     font-family: fairlyodd;
     src: url(BandeinsStrangeVariable.ttf);
-    text-shadow: 5px, 5px, #000000;
-  }
+}
 
 body{
-  background-color: #000000;
+  background: #000000;
 }
 
 .intro-about, .contactme{
@@ -35,12 +34,14 @@ body{
 #introName{
   margin: auto;
   padding-top: 25px;
+  text-shadow: 2px 2px 2px #000000;
 }
 
-#subhead {
+#subhead{
   margin: auto;
   padding: 0px;
   font-style: italic;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 /*section breaks*/
